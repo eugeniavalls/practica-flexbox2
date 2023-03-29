@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  max-width: 1440px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "League Spartan", sans-serif;
+}
+
+.header {
+  height: 380px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/assets/images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  height: 245px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  width: 445px;
+  height: 245px;
+}
+
+.valorations {
+  width: 540px;
+  height: 200px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  width: 445px;
+  height: 154px;
+  font-size: 56px;
+  font-weight: 700;
+  color: #512051;
+}
+
+.text-introduction {
+  width: 445px;
+  height: 75px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #927b91;
+}
+
+.valorations {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.stars {
+  background-color: #f7f2f7;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  width: 445px;
+  height: 56px;
+}
+
+.first-star {
+  position: relative;
+  left: -95px;
+  margin-bottom: 16px;
+}
+
+.second-star {
+  position: relative;
+  left: -50px;
+  margin-bottom: 16px;
+}
+
+.third-star {
+  position: relative;
+}
+
+.images-stars {
+  display: flex;
+  justify-content: space-evenly;
+  width: 117px;
+  margin-left: 32px;
+}
+
+.text-valoration {
+  margin-left: 32px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #512051;
+}
+
+.main {
+  background-image: url(/assets/images/bg-pattern-bottom-desktop.svg);
+  max-width: 1440px;
+  height: 380px;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+  height: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 98px;
+}
+
+.card {
+  width: 350px;
+  height: 234px;
+  background-color: #512051;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.card-colton {
+  position: relative;
+  top: -15px;
+}
+
+.card-anne {
+  position: relative;
+  top: 15px;
+}
+
+.image-profile {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.info-colton {
+  display: flex;
+  align-items: center;
+}
+
+.profile-colton {
+  margin-left: 24px;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.verified-buyer {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #ee69a4;
+}
+
+.text {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: white;
+  line-height: 20px;
+}
